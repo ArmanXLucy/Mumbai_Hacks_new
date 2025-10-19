@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { motion } from "framer-motion";
 
-const API_KEY = "d3nqqvhr01qtm4jdu03gd3nqqvhr01qtm4jdu040"; 
+// const API_KEY = "d3nqqvhr01qtm4jdu03gd3nqqvhr01qtm4jdu040"; 
 export default function LiveTicker() {
   const [quotes, setQuotes] = useState({});
 
