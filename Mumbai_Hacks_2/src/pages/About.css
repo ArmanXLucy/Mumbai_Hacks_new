@@ -1,0 +1,157 @@
+.about-container {
+  font-family: 'Poppins', sans-serif;
+  color: #e6e6e6;
+  background: radial-gradient(circle at center, #1a1a1a 0%, #0b0e17 100%);
+  min-height: 100vh;
+}
+
+
+.about-hero {
+  text-align: center;
+  padding: 80px 20px 60px;
+  background: linear-gradient(180deg, #0b0e17 0%, #1a1a1a 100%);
+}
+.about-hero h1 {
+  font-size: 3rem;
+  font-weight: 700;
+  color: #ffffff;
+}
+.about-hero h1 span {
+  color: #f5c518;
+}
+.about-hero p {
+  max-width: 700px;
+  margin: 15px auto 0;
+  color: #cccccc;
+  font-size: 1.05rem;
+  line-height: 1.6;
+}
+
+.team-section {
+  text-align: center;
+  padding: 60px 0 80px;
+}
+.team-section h2 {
+  font-size: 2rem;
+  color: #f5c518;
+  margin-bottom: 40px;
+}
+.team-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+  width: 85%;
+  margin: 0 auto;
+}
+.team-card {
+  background: #111319;
+  border: 2px solid #222533;
+  border-radius: 10px;
+  padding: 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+.team-card:hover,
+.team-card.active {
+  border-color: #f5c518;
+  transform: translateY(-5px);
+}
+.image-wrapper {
+  width: 100%;
+  height: 240px;
+  overflow: hidden;
+  border-radius: 8px;
+}
+.team-card img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: all 0.4s ease;
+}
+.team-card img.bw {
+  filter: grayscale(100%);
+  opacity: 0.8;
+}
+.team-card img.colored {
+  filter: grayscale(0%);
+  opacity: 1;
+}
+.team-card h3 {
+  margin-top: 15px;
+  color: #ffffff;
+  font-size: 1.1rem;
+}
+.team-card p {
+  font-size: 0.9rem;
+  color: #aaaaaa;
+}
+
+
+.info-card {
+  background: #161922;
+  border-left: 6px solid #f5c518;
+  border-radius: 12px;
+  padding: 25px 30px;
+  width: 75%;
+  margin: 50px auto 0;
+  text-align: left;
+  box-shadow: 0 6px 25px rgba(0, 0, 0, 0.5);
+}
+.info-card h3 {
+  color: #f5c518;
+  font-size: 1.4rem;
+  margin-bottom: 5px;
+}
+.info-card .role {
+  color: #ffffff;
+  font-weight: 500;
+  margin-bottom: 12px;
+}
+.info-card .bio {
+  color: #cccccc;
+  font-size: 0.95rem;
+  margin-bottom: 15px;
+  line-height: 1.7;
+}
+.skills {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+.skill-tag {
+  background: #f5c518;
+  color: #0b0e17;
+  padding: 6px 14px;
+  border-radius: 20px;
+  font-size: 0.85rem;
+  font-weight: 600;
+}
+
+.linkedin-link-container {
+    display: flex;
+    align-items: center;
+    gap: 8px; 
+    margin-bottom: 15px;
+  }
+
+
+.linkedin-text {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.linkedin-text:hover {
+    text-decoration: underline;
+    color: #DEAA09;
+}
+
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #0b0e17;
+  color: #f5c518;
+  font-size: 0.9rem;
+  border-top: 1px solid #1a1a1a;
+}

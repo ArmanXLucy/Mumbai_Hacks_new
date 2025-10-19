@@ -1,0 +1,22 @@
+
+@import url("https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css");
+
+.services>ul.dropdown{
+    display: none;
+}
+
+.services:hover ul.dropdown{
+    display: block;
+}
+
+#mobileMenu {
+  backdrop-filter: blur(10px);
+}
+
+#mobileMenu h4 {
+  transition: color 0.3s ease;
+}
+
+#mobileMenu h4:hover {
+  color: #facc15;
+}
