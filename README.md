@@ -1,41 +1,50 @@
 FineEdge
 
-FineEdge is a smart, user-friendly financial guidance platform designed to help individuals make informed money decisions. Whether you're a beginner or an experienced investor, FineEdge provides real-time market insights, personalized suggestions, and powerful tools to simplify finance for everyone.
+FineEdge is a comprehensive financial guidance platform designed to support individuals in making informed financial decisions. The platform provides real-time market insights, live tracking of Sensex and stock prices, and actionable financial suggestions. FineEdge aims to simplify finance by presenting data and insights in an accessible and intuitive manner.
 
-🌟 Features
-📈 Live Market Tracking
+Overview
+
+FineEdge helps users:
+
+Monitor live market trends
+
+Track Sensex and individual stock performance
+
+Receive financial suggestions and insights
+
+Access additional finance-related tools and resources
+
+The platform is built to assist both beginners and experienced users who seek reliable financial information in one place.
+
+Key Features
+Live Market Tracking
 
 Real-time Sensex updates
 
-Live stock price tracking
+Live stock price monitoring
 
-Market trend visualization
+Market performance summaries
 
-💡 Smart Financial Suggestions
+Financial Guidance
 
-Personalized finance tips
+Suggestions based on basic financial parameters
 
-Investment-based recommendations
+Beginner-friendly explanations
 
-Easy-to-understand analytics
+Insightful data visualizations
 
-🧮 Tools and Resources
+Additional Tools
 
-Budgeting & planning support
+Budgeting support (optional/future scope)
 
-Portfolio monitoring (if applicable)
+Financial planning resources
 
-Financial calculators (future updates)
+Portfolio monitoring features (optional/future scope)
 
-🖥️ Clean & Modern Interface
+Project Objectives
 
-Simple and intuitive UI
+To create a centralized platform for essential financial insights
 
-Fast, responsive design
+To deliver real-time market data in a simplified format
 
-User-friendly navigation
-
-🎯 Goal of FineEdge
-
-To make financial knowledge accessible to everyone.
-FineEdge aims to eliminate confusion around finance by offering clear insights, live market data, and intelligent guidance—all in one place.
+To enable informed decision-making for users of all financial backgrounds
